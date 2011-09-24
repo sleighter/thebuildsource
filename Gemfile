@@ -46,7 +46,7 @@ end
 
 # USER DEFINED
 
-gem 'aws-s3'
+gem 'fog'
 
 # Specify additional Refinery CMS Engines here (all optional):
 # gem 'refinerycms-inquiries',    '~> 1.0'
