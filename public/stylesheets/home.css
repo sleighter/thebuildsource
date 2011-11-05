@@ -2,3 +2,12 @@
   Override default refinery homepage styles here.
   These only apply to the homepage of your site.
 */
+
+#corner-logo {
+	margin-left: -19px;
+	margin-top: -39px;
+}
+
+#body-container {
+	border: 8px solid #3e91ce;
+}
