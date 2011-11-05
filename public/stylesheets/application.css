@@ -2,3 +2,43 @@
   Override default refinery application CSS below.
   Formatting applies to all frontend.
 */
+#navcontainer
+{
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+#navlist li
+{
+display: inline;
+padding-bottom: 14px;
+padding-left: 20px;
+background-repeat: no-repeat;
+}
+
+#navlist a
+{
+padding-left: 20px;
+padding-bottom: 14px;
+font-weight: bold;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+#navlist a:link, #navlist a:visited
+{
+padding-left: 20px;
+color: red;
+background: url(http://hekima.lionking.org/randomness/arrowbullet.gif);
+background-position: 0 -28px;
+background-repeat: no-repeat;}
+
+#navlist a:hover
+{
+color: black;
+padding-left: 20px;
+background: url(http://hekima.lionking.org/randomness/arrowbullet.gif);
+background-repeat: no-repeat;
+background-position: 0 -14px;} 
